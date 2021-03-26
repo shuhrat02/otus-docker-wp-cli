@@ -23,3 +23,6 @@ docker-compose up -d
 ```bash
 docker exec otus-docker-wp-cli_db_1 /usr/bin/mysqldump -u root --password=wordpress wordpress > wordpress_db_$(date +%d%m%y,%T).sql
 ```
+
+#### Скрипт для создания бекапов по расписанию
+Можно использовать простенький скрипт mysql_dump.sh по кронтабу. 
