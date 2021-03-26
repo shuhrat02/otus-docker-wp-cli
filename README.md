@@ -5,7 +5,7 @@ Docker образ с CMS WordPress
 
 Выполните команду:
 ```bash
-https://github.com/shuhrat02/otus-docker-wp-cli.git
+git clone https://github.com/shuhrat02/otus-docker-wp-cli.git
 ```
 
 После этого перейдите в директорию otus-docker-wp-cli и выполните команды:
