@@ -1,7 +1,8 @@
 #!/bin/bash
 
 DATA=`date +"%Y-%m-%d_%H-%M"`
-PATHB=/mnt/backups
+#Можно и нужно указать путь до директории куда будут сохраняться бекапы:
+PATHB=/home/$USER
 
 # Бэкапим дампом
 docker exec otus-docker-wp-cli_db_1 /usr/bin/mysqldump -u root --password=wordpress wordpress > "$PATHB"/"$DATA"-db_name.sql
